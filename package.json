@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.3.8",
-    "@angular/core": "^17.3.8",
-    "@ngx-translate/core": "^15.0.0",
-    "@ngx-translate/http-loader": "^8.0.0"
+    "@angular/core": "^17.3.8"
   },
   "type": "module",
   "dependencies": {
     "@angular/elements": "^17.3.8",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0"
   },
   "sideEffects": false,
   "module": "fesm2022/access-flow.mjs",
