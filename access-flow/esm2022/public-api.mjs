@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of access-flow
+ */
+export * from './lib/access-flow.component';
+export * from './lib/access-flow.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2FjY2Vzcy1mbG93L3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyw2QkFBNkIsQ0FBQztBQUM1QyxjQUFjLDBCQUEwQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBhY2Nlc3MtZmxvd1xuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2FjY2Vzcy1mbG93LmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9hY2Nlc3MtZmxvdy5tb2R1bGUnO1xuIl19
