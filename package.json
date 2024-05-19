@@ -8,9 +8,7 @@
   "type": "module",
   "dependencies": {
     "@angular/elements": "^17.3.8",
-    "tslib": "^2.3.0",
-    "@ngx-translate/core": "^15.0.0",
-    "@ngx-translate/http-loader": "^8.0.0"
+    "tslib": "^2.3.0"
   },
   "sideEffects": false,
   "module": "fesm2022/access-flow.mjs",

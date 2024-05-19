@@ -1,5 +1,5 @@
 import { ElementRef, OnInit, Renderer2, AfterViewInit } from '@angular/core';
-import { TranslateService } from "@ngx-translate/core";
+import { TranslationService } from "./translation.service";
 import * as i0 from "@angular/core";
 interface EnabledTools {
     contrast: string;
@@ -19,7 +19,7 @@ export declare class AccessFlowComponent implements OnInit, AfterViewInit {
     private document;
     private element;
     private renderer;
-    private translateService;
+    private translationService;
     footer: ElementRef | undefined;
     languages: ElementRef | undefined;
     header: ElementRef | undefined;
@@ -37,7 +37,8 @@ export declare class AccessFlowComponent implements OnInit, AfterViewInit {
     onResize(event: any): void;
     onKeydownHandler(event: KeyboardEvent): void;
     onMousemoveHandler(event: MouseEvent): void;
-    constructor(document: Document, element: ElementRef, renderer: Renderer2, translateService: TranslateService);
+    constructor(document: Document, element: ElementRef, renderer: Renderer2, translationService: TranslationService);
+    getBrowserLanguage(): string;
     isLanguageInSearch(language: any): boolean;
     changeOpenLanguage(): void;
     changeLanguage(language: string): void;
