@@ -13,7 +13,7 @@ class TranslationService {
         this.languageSubject = new BehaviorSubject('de');
         this.currentLanguage$ = this.languageSubject.asObservable();
         this.translations = {
-            'de': {
+            "de": {
                 "accessFlow": {
                     "openSymbol": {
                         "label": "AccessFlow-Barrierefreiheitsmenü öffnen, um Einstellungen vorzunehmen."
@@ -89,6 +89,2297 @@ class TranslationService {
                     },
                     "overAccessFlow": {
                         "label": "Über Access-Flow"
+                    }
+                }
+            },
+            "en": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Open the AccessFlow accessibility menu to make settings."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Close view"
+                        }
+                    },
+                    "languages": {
+                        "title": "Language ({{language}})",
+                        "label": "Allows you to change the language of the AccessFlow interface with one click.",
+                        "input": {
+                            "label": "Search for the desired language."
+                        },
+                        "availableLanguages": {
+                            "label": "Switch the interface to the {{language}} language."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contrast",
+                            "label": "Displays the website in different contrast levels."
+                        },
+                        "links": {
+                            "title": "Links",
+                            "label": "Highlights all links on the website in colour."
+                        },
+                        "biggerText": {
+                            "title": "Larger text",
+                            "label": "Enlarges the font relative to the current font size."
+                        },
+                        "textSpacing": {
+                            "title": "Text spacing",
+                            "label": "Increases the space between characters and words."
+                        },
+                        "imagesRemove": {
+                            "title": "Remove images",
+                            "label": "All image elements on the website are hidden."
+                        },
+                        "lineHeight": {
+                            "title": "Line height",
+                            "label": "The line height is increased for each text element on the web page."
+                        },
+                        "saturation": {
+                            "title": "Saturation",
+                            "label": "The saturation of the website is increased or decreased to ensure better readability."
+                        },
+                        "mouseCursor": {
+                            "title": "Mouse pointer",
+                            "label": "The mouse pointer is enlarged by a factor of 3 in order to have it better in focus."
+                        },
+                        "siteStructure": {
+                            "title": "Page structure",
+                            "label": "All headings and links are listed one below the other in order of importance, making it easy to navigate through the page."
+                        },
+                        "tooltips": {
+                            "title": "Tooltips",
+                            "label": "All elements that have a `title` or `label` attribute display a visible tooltip when hovering over them with the mouse."
+                        },
+                        "readableText": {
+                            "title": "Readable text",
+                            "label": "A new font is loaded to make the text easier to read. A font especially suitable for dyslexics is also provided for selection."
+                        },
+                        "stopAnimation": {
+                            "title": "Stop animations",
+                            "label": "Pauses all videos and animations on the entire website."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Report error",
+                        "label": "Report an error with AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "About Access-Flow"
+                    }
+                }
+            },
+            "ar": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "افتح قائمة إمكانية الوصول إلى AccessFlow لضبط الإعدادات."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "عرض قريب"
+                        }
+                    },
+                    "languages": {
+                        "title": "اللغة ({{language}})",
+                        "label": "يتيح لك تغيير لغة واجهة AccessFlow بنقرة واحدة.",
+                        "input": {
+                            "label": "ابحث عن اللغة المطلوبة."
+                        },
+                        "availableLanguages": {
+                            "label": "قم بتبديل الواجهة إلى لغة {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "التباين",
+                            "label": "يعرض الموقع الإلكتروني بمستويات تباين مختلفة."
+                        },
+                        "links": {
+                            "title": "الروابط",
+                            "label": "إبراز جميع الروابط على الموقع الإلكتروني بالألوان."
+                        },
+                        "biggerText": {
+                            "title": "نص أكبر",
+                            "label": "تكبير الخط بالنسبة لحجم الخط الحالي."
+                        },
+                        "textSpacing": {
+                            "title": "تباعد النص",
+                            "label": "يزيد المسافة بين الأحرف والكلمات."
+                        },
+                        "imagesRemove": {
+                            "title": "إزالة الصور",
+                            "label": "جميع عناصر الصور على الموقع الإلكتروني مخفية."
+                        },
+                        "lineHeight": {
+                            "title": "ارتفاع الخط",
+                            "label": "يتم زيادة ارتفاع السطر لكل عنصر نصي على صفحة الويب."
+                        },
+                        "saturation": {
+                            "title": "التشبع",
+                            "label": "يتم زيادة أو تقليل تشبع الموقع الإلكتروني لضمان سهولة القراءة بشكل أفضل."
+                        },
+                        "mouseCursor": {
+                            "title": "مؤشر الماوس",
+                            "label": "يتم تكبير مؤشر الفأرة بمعامل 3 من أجل الحصول على تركيز أفضل."
+                        },
+                        "siteStructure": {
+                            "title": "هيكل الصفحة",
+                            "label": "جميع العناوين والروابط مدرجة واحدة أسفل الأخرى بالترتيب حسب الأهمية، مما يسهل التنقل عبر الصفحة."
+                        },
+                        "tooltips": {
+                            "title": "تلميحات الأدوات",
+                            "label": "تعرض جميع العناصر التي تحتوي على سمة \"العنوان\" أو \"التسمية\" تلميح أداة مرئي عند التمرير فوقها بالماوس."
+                        },
+                        "readableText": {
+                            "title": "نص قابل للقراءة",
+                            "label": "يتم تحميل خط جديد لتسهيل قراءة النص. كما يتم توفير خط مناسب خصيصاً لمصابي عسر القراءة للاختيار."
+                        },
+                        "stopAnimation": {
+                            "title": "إيقاف الرسوم المتحركة",
+                            "label": "إيقاف جميع مقاطع الفيديو والرسوم المتحركة مؤقتاً على الموقع الإلكتروني بالكامل."
+                        }
+                    },
+                    "reportError": {
+                        "button": "الإبلاغ عن خطأ",
+                        "label": "الإبلاغ عن خطأ في AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "حول Access-Flow"
+                    }
+                }
+            },
+            "bg": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Отворете менюто за достъпност на AccessFlow, за да направите настройки."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Изглед отблизо"
+                        }
+                    },
+                    "languages": {
+                        "title": "Език ({{language}})",
+                        "label": "Позволява ви да промените езика на интерфейса на AccessFlow с едно кликване.",
+                        "input": {
+                            "label": "Потърсете желания език."
+                        },
+                        "availableLanguages": {
+                            "label": "Превключване на интерфейса на езика {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Контраст",
+                            "label": "Показва уебсайта в различни нива на контраст."
+                        },
+                        "links": {
+                            "title": "Връзки",
+                            "label": "Подчертава всички връзки в уебсайта в цвят."
+                        },
+                        "biggerText": {
+                            "title": "По-голям текст",
+                            "label": "Увеличава шрифта спрямо текущия размер на шрифта."
+                        },
+                        "textSpacing": {
+                            "title": "Разстояние между текстовете",
+                            "label": "Увеличава разстоянието между символите и думите."
+                        },
+                        "imagesRemove": {
+                            "title": "Премахване на изображения",
+                            "label": "Всички елементи на изображенията в уебсайта са скрити."
+                        },
+                        "lineHeight": {
+                            "title": "Височина на линията",
+                            "label": "Височината на реда се увеличава за всеки текстов елемент в уеб страницата."
+                        },
+                        "saturation": {
+                            "title": "Насищане",
+                            "label": "Наситеността на уебсайта се увеличава или намалява, за да се осигури по-добра четливост."
+                        },
+                        "mouseCursor": {
+                            "title": "Показалец на мишката",
+                            "label": "Показалецът на мишката е увеличен 3 пъти, за да се фокусира по-добре."
+                        },
+                        "siteStructure": {
+                            "title": "Структура на страницата",
+                            "label": "Всички заглавия и връзки са подредени едно под друго по важност, което улеснява навигацията в страницата."
+                        },
+                        "tooltips": {
+                            "title": "Съвети за инструменти",
+                            "label": "Всички елементи, които имат атрибут `title` или `label`, показват видима подсказка, когато минете над тях с мишката."
+                        },
+                        "readableText": {
+                            "title": "Четим текст",
+                            "label": "Зарежда се нов шрифт, за да се чете по-лесно текстът. Предоставен е за избор и шрифт, особено подходящ за дислексици."
+                        },
+                        "stopAnimation": {
+                            "title": "Спиране на анимациите",
+                            "label": "Спира на пауза всички видеоклипове и анимации в целия уебсайт."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Докладване на грешка",
+                        "label": "Докладване на грешка с AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "За Access-Flow"
+                    }
+                }
+            },
+            "zh": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "打开 AccessFlow 可访问性菜单进行设置。"
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "近观"
+                        }
+                    },
+                    "languages": {
+                        "title": "语言 ({{language}})",
+                        "label": "允许您单击更改 AccessFlow 界面的语言。",
+                        "input": {
+                            "label": "搜索所需的语言。"
+                        },
+                        "availableLanguages": {
+                            "label": "将界面切换为 {{language}} 语言。"
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "对比",
+                            "label": "以不同的对比度显示网站。"
+                        },
+                        "links": {
+                            "title": "链接",
+                            "label": "用彩色突出显示网站上的所有链接。"
+                        },
+                        "biggerText": {
+                            "title": "放大文本",
+                            "label": "相对于当前字体大小放大字体。"
+                        },
+                        "textSpacing": {
+                            "title": "文本间距",
+                            "label": "增加字符和单词之间的空格。"
+                        },
+                        "imagesRemove": {
+                            "title": "删除图像",
+                            "label": "网站上的所有图像元素都是隐藏的。"
+                        },
+                        "lineHeight": {
+                            "title": "线条高度",
+                            "label": "网页上每个文本元素的行高都会增加。"
+                        },
+                        "saturation": {
+                            "title": "饱和度",
+                            "label": "提高或降低网站的饱和度，以确保更好的可读性。"
+                        },
+                        "mouseCursor": {
+                            "title": "鼠标指针",
+                            "label": "鼠标指针放大了 3 倍，以便更好地对焦。"
+                        },
+                        "siteStructure": {
+                            "title": "页面结构",
+                            "label": "所有标题和链接都按重要程度一一对应排列，便于浏览页面。"
+                        },
+                        "tooltips": {
+                            "title": "工具提示",
+                            "label": "当鼠标悬停在所有具有 \"标题 \"或 \"标签 \"属性的元素上时，它们都会显示可见的工具提示。"
+                        },
+                        "readableText": {
+                            "title": "可读文本",
+                            "label": "加载了一种新字体，使文本更易于阅读。还提供了一种特别适合阅读障碍患者的字体供选择。"
+                        },
+                        "stopAnimation": {
+                            "title": "停止动画",
+                            "label": "暂停整个网站上的所有视频和动画。"
+                        }
+                    },
+                    "reportError": {
+                        "button": "报告错误",
+                        "label": "报告 AccessFlow 中的错误"
+                    },
+                    "overAccessFlow": {
+                        "label": "关于 Access-Flow"
+                    }
+                }
+            },
+            "da": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Åbn AccessFlow-tilgængelighedsmenuen for at foretage indstillinger."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Nærbillede"
+                        }
+                    },
+                    "languages": {
+                        "title": "Sprog ({{language}})",
+                        "label": "Giver dig mulighed for at ændre sproget i AccessFlow-grænsefladen med et enkelt klik.",
+                        "input": {
+                            "label": "Søg efter det ønskede sprog."
+                        },
+                        "availableLanguages": {
+                            "label": "Skift grænseflade til sproget {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontraster",
+                            "label": "Viser hjemmesiden i forskellige kontrastniveauer."
+                        },
+                        "links": {
+                            "title": "Links",
+                            "label": "Fremhæver alle links på hjemmesiden i farver."
+                        },
+                        "biggerText": {
+                            "title": "Større tekst",
+                            "label": "Forstørrer skrifttypen i forhold til den aktuelle skriftstørrelse."
+                        },
+                        "textSpacing": {
+                            "title": "Afstand mellem tekster",
+                            "label": "Øger afstanden mellem tegn og ord."
+                        },
+                        "imagesRemove": {
+                            "title": "Fjern billeder",
+                            "label": "Alle billedelementer på hjemmesiden er skjulte."
+                        },
+                        "lineHeight": {
+                            "title": "Linjehøjde",
+                            "label": "Linjehøjden øges for hvert tekstelement på websiden."
+                        },
+                        "saturation": {
+                            "title": "Mætning",
+                            "label": "Mætningen på hjemmesiden øges eller mindskes for at sikre bedre læsbarhed."
+                        },
+                        "mouseCursor": {
+                            "title": "Musemarkør",
+                            "label": "Musemarkøren er forstørret med en faktor 3 for at få den bedre i fokus."
+                        },
+                        "siteStructure": {
+                            "title": "Sidens struktur",
+                            "label": "Alle overskrifter og links er listet under hinanden i prioriteret rækkefølge, så det er nemt at navigere rundt på siden."
+                        },
+                        "tooltips": {
+                            "title": "Værktøjstip",
+                            "label": "Alle elementer, der har en `title`- eller `label`-attribut, viser et synligt værktøjstip, når man holder musen over dem."
+                        },
+                        "readableText": {
+                            "title": "Læsbar tekst",
+                            "label": "En ny skrifttype er indlæst for at gøre teksten lettere at læse. Der kan også vælges en skrifttype, der er særligt velegnet til ordblinde."
+                        },
+                        "stopAnimation": {
+                            "title": "Stop animationer",
+                            "label": "Sætter alle videoer og animationer på pause på hele websitet."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Rapporter fejl",
+                        "label": "Rapporter en fejl med AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Om Access-Flow"
+                    }
+                }
+            },
+            "et": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Seadete tegemiseks avage AccessFlow ligipääsetavuse menüü."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Lähivaade"
+                        }
+                    },
+                    "languages": {
+                        "title": "Keel ({{language}})",
+                        "label": "Võimaldab AccessFlow kasutajaliidese keelt ühe klõpsuga muuta.",
+                        "input": {
+                            "label": "Otsige soovitud keel."
+                        },
+                        "availableLanguages": {
+                            "label": "Vahetage kasutajaliides {{language}} keelele."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Kuvab veebisaidi eri kontrastitasemetel."
+                        },
+                        "links": {
+                            "title": "Lingid",
+                            "label": "Rõhutab kõiki veebilehel olevaid linke värviliselt."
+                        },
+                        "biggerText": {
+                            "title": "Suurem tekst",
+                            "label": "Suurendab kirjastiili praeguse kirjasuuruse suhtes."
+                        },
+                        "textSpacing": {
+                            "title": "Teksti vahekaugus",
+                            "label": "Suurendab tähemärkide ja sõnade vahelist ruumi."
+                        },
+                        "imagesRemove": {
+                            "title": "Piltide eemaldamine",
+                            "label": "Kõik veebilehe pildielemendid on peidetud."
+                        },
+                        "lineHeight": {
+                            "title": "Joone kõrgus",
+                            "label": "Ridade kõrgust suurendatakse iga veebilehe tekstielemendi puhul."
+                        },
+                        "saturation": {
+                            "title": "Küllastumine",
+                            "label": "Parema loetavuse tagamiseks suurendatakse või vähendatakse veebilehe küllastust."
+                        },
+                        "mouseCursor": {
+                            "title": "Hiire osuti",
+                            "label": "Hiirekursorit suurendatakse 3 korda, et see oleks paremini fookuses."
+                        },
+                        "siteStructure": {
+                            "title": "Lehekülje struktuur",
+                            "label": "Kõik rubriigid ja lingid on loetletud üksteise all tähtsuse järjekorras, mis hõlbustab lehel navigeerimist."
+                        },
+                        "tooltips": {
+                            "title": "Tööriistad",
+                            "label": "Kõik elemendid, millel on atribuut \"pealkiri\" või \"silt\", kuvavad hiirega nende kohal hõljudes nähtava vihje."
+                        },
+                        "readableText": {
+                            "title": "Loetav tekst",
+                            "label": "Teksti paremaks loetavuseks laaditakse uus font. Valimiseks on ette nähtud ka spetsiaalselt düsleksiklastele sobiv kirjatüüp."
+                        },
+                        "stopAnimation": {
+                            "title": "Stopp-animatsioonid",
+                            "label": "Peatab kõik videod ja animatsioonid kogu veebisaidil."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Vea teatamine",
+                        "label": "Teatage veast AccessFlow'ga"
+                    },
+                    "overAccessFlow": {
+                        "label": "Access-Flow'st"
+                    }
+                }
+            },
+            "fi": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Avaa AccessFlow-yhteensopivuusvalikko asetusten tekemistä varten."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Lähikuva"
+                        }
+                    },
+                    "languages": {
+                        "title": "Kieli ({{language}})",
+                        "label": "Voit vaihtaa AccessFlow-käyttöliittymän kielen yhdellä napsautuksella.",
+                        "input": {
+                            "label": "Etsi haluamasi kieli."
+                        },
+                        "availableLanguages": {
+                            "label": "Vaihda käyttöliittymä {{language}}-kielelle."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrasti",
+                            "label": "Näyttää verkkosivuston eri kontrastitasoilla."
+                        },
+                        "links": {
+                            "title": "Linkit",
+                            "label": "Korostaa kaikki verkkosivuston linkit värillisinä."
+                        },
+                        "biggerText": {
+                            "title": "Suurempi teksti",
+                            "label": "Suurentaa fonttia suhteessa nykyiseen fonttikokoon."
+                        },
+                        "textSpacing": {
+                            "title": "Tekstiväli",
+                            "label": "Lisää merkkien ja sanojen välistä tilaa."
+                        },
+                        "imagesRemove": {
+                            "title": "Poista kuvat",
+                            "label": "Kaikki verkkosivuston kuvaelementit on piilotettu."
+                        },
+                        "lineHeight": {
+                            "title": "Viivan korkeus",
+                            "label": "Rivikorkeutta kasvatetaan jokaiselle verkkosivun tekstielementille."
+                        },
+                        "saturation": {
+                            "title": "Saturaatio",
+                            "label": "Sivuston värikylläisyyttä lisätään tai vähennetään paremman luettavuuden varmistamiseksi."
+                        },
+                        "mouseCursor": {
+                            "title": "Hiiren osoitin",
+                            "label": "Hiiren osoitin on suurennettu 3-kertaiseksi, jotta se olisi paremmin tarkennettu."
+                        },
+                        "siteStructure": {
+                            "title": "Sivun rakenne",
+                            "label": "Kaikki otsikot ja linkit on lueteltu tärkeysjärjestyksessä toistensa alapuolella, joten sivulla on helppo navigoida."
+                        },
+                        "tooltips": {
+                            "title": "Työkaluvihjeet",
+                            "label": "Kaikki elementit, joilla on `title`- tai `label`-attribuutti, näyttävät näkyvän työkaluvihjeen, kun viet hiiren hiiren niiden päälle."
+                        },
+                        "readableText": {
+                            "title": "Luettava teksti",
+                            "label": "Uusi fontti ladataan, jotta teksti olisi helpommin luettavissa. Valittavana on myös erityisesti lukihäiriöisille sopiva fontti."
+                        },
+                        "stopAnimation": {
+                            "title": "Pysäytä animaatiot",
+                            "label": "Pysäyttää kaikki videot ja animaatiot koko verkkosivustolla."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Ilmoita virhe",
+                        "label": "Ilmoita virhe AccessFlow'n kanssa"
+                    },
+                    "overAccessFlow": {
+                        "label": "Tietoja Access-Flow'sta"
+                    }
+                }
+            },
+            "fr": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Ouvrir le menu d'accessibilité d'AccessFlow pour effectuer des réglages."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Fermer la vue"
+                        }
+                    },
+                    "languages": {
+                        "title": "Langue ({{language}})",
+                        "label": "Permet de changer la langue de l'interface AccessFlow en un clic.",
+                        "input": {
+                            "label": "Rechercher la langue souhaitée."
+                        },
+                        "availableLanguages": {
+                            "label": "Changer la langue de l'interface {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contraste",
+                            "label": "Présente la page web avec différents niveaux de contraste."
+                        },
+                        "links": {
+                            "title": "Liens",
+                            "label": "Fait ressortir tous les liens de la page web en couleur."
+                        },
+                        "biggerText": {
+                            "title": "Texte plus grand",
+                            "label": "Augmente la taille de la police par rapport à la taille actuelle."
+                        },
+                        "textSpacing": {
+                            "title": "Espacement du texte",
+                            "label": "Augmente l'espacement entre les caractères et les mots."
+                        },
+                        "imagesRemove": {
+                            "title": "Supprimer les images",
+                            "label": "Tous les éléments d'image de la page web sont masqués."
+                        },
+                        "lineHeight": {
+                            "title": "Hauteur de la ligne",
+                            "label": "La hauteur de la ligne est augmentée pour chaque élément de texte sur la page web."
+                        },
+                        "saturation": {
+                            "title": "Saturation",
+                            "label": "La saturation de la page web est augmentée ou diminuée afin de garantir une meilleure lisibilité."
+                        },
+                        "mouseCursor": {
+                            "title": "Pointeur de la souris",
+                            "label": "Le pointeur de la souris est agrandi d'un facteur 3 afin de mieux le mettre en évidence."
+                        },
+                        "siteStructure": {
+                            "title": "Structure des pages",
+                            "label": "Tous les titres et liens sont classés par ordre d'importance, ce qui facilite la navigation dans le site."
+                        },
+                        "tooltips": {
+                            "title": "Infobulles",
+                            "label": "Tous les éléments qui possèdent un attribut `title` ou `label` affichent une info-bulle visible au passage de la souris."
+                        },
+                        "readableText": {
+                            "title": "Texte lisible",
+                            "label": "Pour rendre le texte plus lisible, une nouvelle police de caractères est chargée. Une police spécialement adaptée aux dyslexiques est également proposée au choix."
+                        },
+                        "stopAnimation": {
+                            "title": "Arrêter les animations",
+                            "label": "Met en pause toutes les vidéos et animations sur l'ensemble du site."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Signaler une erreur",
+                        "label": "Signaler une erreur à AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "À propos d'Access-Flow"
+                    }
+                }
+            },
+            "el": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Ανοίξτε το μενού προσβασιμότητας AccessFlow για να προβείτε σε ρυθμίσεις."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Κοντινή άποψη"
+                        }
+                    },
+                    "languages": {
+                        "title": "Γλώσσα ({{language}})",
+                        "label": "Σας επιτρέπει να αλλάξετε τη γλώσσα της διεπαφής AccessFlow με ένα κλικ.",
+                        "input": {
+                            "label": "Αναζητήστε την επιθυμητή γλώσσα."
+                        },
+                        "availableLanguages": {
+                            "label": "Εναλλαγή της διεπαφής στη γλώσσα {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Αντίθεση",
+                            "label": "Εμφανίζει τον ιστότοπο σε διαφορετικά επίπεδα αντίθεσης."
+                        },
+                        "links": {
+                            "title": "Σύνδεσμοι",
+                            "label": "Επισημαίνει όλους τους συνδέσμους στον ιστότοπο με χρώμα."
+                        },
+                        "biggerText": {
+                            "title": "Μεγαλύτερο κείμενο",
+                            "label": "Μεγαλώνει τη γραμματοσειρά σε σχέση με το τρέχον μέγεθος γραμματοσειράς."
+                        },
+                        "textSpacing": {
+                            "title": "Απόσταση κειμένου",
+                            "label": "Αυξάνει το διάστημα μεταξύ χαρακτήρων και λέξεων."
+                        },
+                        "imagesRemove": {
+                            "title": "Αφαίρεση εικόνων",
+                            "label": "Όλα τα στοιχεία εικόνας στον ιστότοπο είναι κρυμμένα."
+                        },
+                        "lineHeight": {
+                            "title": "Ύψος γραμμής",
+                            "label": "Το ύψος γραμμής αυξάνεται για κάθε στοιχείο κειμένου στην ιστοσελίδα."
+                        },
+                        "saturation": {
+                            "title": "Κορεσμός",
+                            "label": "Ο κορεσμός του ιστότοπου αυξάνεται ή μειώνεται για να εξασφαλιστεί καλύτερη αναγνωσιμότητα."
+                        },
+                        "mouseCursor": {
+                            "title": "Δείκτης ποντικιού",
+                            "label": "Ο δείκτης του ποντικιού μεγεθύνεται κατά 3 φορές για να είναι καλύτερα εστιασμένος."
+                        },
+                        "siteStructure": {
+                            "title": "Δομή σελίδας",
+                            "label": "Όλες οι επικεφαλίδες και οι σύνδεσμοι παρατίθενται ο ένας κάτω από τον άλλο με σειρά σπουδαιότητας, διευκολύνοντας την πλοήγηση στη σελίδα."
+                        },
+                        "tooltips": {
+                            "title": "Συμβουλές εργαλείων",
+                            "label": "Όλα τα στοιχεία που έχουν ένα χαρακτηριστικό \"τίτλος\" ή \"ετικέτα\" εμφανίζουν μια ορατή συμβουλή εργαλείων όταν περνάτε από πάνω τους με το ποντίκι."
+                        },
+                        "readableText": {
+                            "title": "Αναγνώσιμο κείμενο",
+                            "label": "Μια νέα γραμματοσειρά φορτώνεται για να κάνει το κείμενο πιο ευανάγνωστο. Παρέχεται επίσης προς επιλογή μια γραμματοσειρά ειδικά κατάλληλη για δυσλεκτικούς."
+                        },
+                        "stopAnimation": {
+                            "title": "Διακοπή κινούμενων σχεδίων",
+                            "label": "Διακόπτει όλα τα βίντεο και τα κινούμενα σχέδια σε ολόκληρο τον ιστότοπο."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Αναφορά σφάλματος",
+                        "label": "Αναφορά σφάλματος με το AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Σχετικά με την Access-Flow"
+                    }
+                }
+            },
+            "id": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Buka menu aksesibilitas AccessFlow untuk membuat pengaturan."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Tampilan dekat"
+                        }
+                    },
+                    "languages": {
+                        "title": "Bahasa ({{language}})",
+                        "label": "Memungkinkan Anda mengubah bahasa antarmuka AccessFlow dengan satu klik.",
+                        "input": {
+                            "label": "Cari bahasa yang diinginkan."
+                        },
+                        "availableLanguages": {
+                            "label": "Mengalihkan antarmuka ke bahasa {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontras",
+                            "label": "Menampilkan situs web dalam tingkat kontras yang berbeda."
+                        },
+                        "links": {
+                            "title": "Tautan",
+                            "label": "Menyorot semua tautan di situs web dalam warna."
+                        },
+                        "biggerText": {
+                            "title": "Teks yang lebih besar",
+                            "label": "Memperbesar font relatif terhadap ukuran font saat ini."
+                        },
+                        "textSpacing": {
+                            "title": "Spasi teks",
+                            "label": "Menambah spasi di antara karakter dan kata."
+                        },
+                        "imagesRemove": {
+                            "title": "Menghapus gambar",
+                            "label": "Semua elemen gambar pada situs web disembunyikan."
+                        },
+                        "lineHeight": {
+                            "title": "Tinggi garis",
+                            "label": "Tinggi baris ditingkatkan untuk setiap elemen teks pada halaman web."
+                        },
+                        "saturation": {
+                            "title": "Kejenuhan",
+                            "label": "Tingkat kejenuhan situs web ditingkatkan atau dikurangi untuk memastikan keterbacaan yang lebih baik."
+                        },
+                        "mouseCursor": {
+                            "title": "Penunjuk mouse",
+                            "label": "Penunjuk mouse diperbesar dengan faktor 3 agar lebih baik dalam fokus."
+                        },
+                        "siteStructure": {
+                            "title": "Struktur halaman",
+                            "label": "Semua judul dan tautan dicantumkan satu di bawah yang lain berdasarkan urutan kepentingannya, sehingga memudahkan untuk menavigasi halaman."
+                        },
+                        "tooltips": {
+                            "title": "Keterangan alat",
+                            "label": "Semua elemen yang memiliki atribut `title` atau `label` akan menampilkan keterangan alat yang dapat dilihat saat Anda mengarahkan mouse ke elemen tersebut."
+                        },
+                        "readableText": {
+                            "title": "Teks yang dapat dibaca",
+                            "label": "Font baru dimuat untuk membuat teks lebih mudah dibaca. Font yang secara khusus cocok untuk penderita disleksia juga disediakan untuk dipilih."
+                        },
+                        "stopAnimation": {
+                            "title": "Menghentikan animasi",
+                            "label": "Menjeda semua video dan animasi di seluruh situs web."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Laporkan kesalahan",
+                        "label": "Melaporkan kesalahan dengan AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Tentang Aliran Akses"
+                    }
+                }
+            },
+            "it": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Aprire il menu AccessFlow per effettuare le impostazioni."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Vista da vicino"
+                        }
+                    },
+                    "languages": {
+                        "title": "Lingua ({{language}})",
+                        "label": "Permette di cambiare la lingua dell'interfaccia di AccessFlow con un solo clic.",
+                        "input": {
+                            "label": "Cercare la lingua desiderata."
+                        },
+                        "availableLanguages": {
+                            "label": "Passa l'interfaccia alla lingua {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contrasto",
+                            "label": "Visualizza il sito web con diversi livelli di contrasto."
+                        },
+                        "links": {
+                            "title": "Collegamenti",
+                            "label": "Evidenzia a colori tutti i link del sito web."
+                        },
+                        "biggerText": {
+                            "title": "Testo più grande",
+                            "label": "Ingrandisce il carattere rispetto alla dimensione corrente."
+                        },
+                        "textSpacing": {
+                            "title": "Spaziatura del testo",
+                            "label": "Aumenta lo spazio tra i caratteri e le parole."
+                        },
+                        "imagesRemove": {
+                            "title": "Rimuovere le immagini",
+                            "label": "Tutti gli elementi di immagine del sito web sono nascosti."
+                        },
+                        "lineHeight": {
+                            "title": "Altezza della linea",
+                            "label": "L'altezza della linea viene aumentata per ogni elemento di testo della pagina web."
+                        },
+                        "saturation": {
+                            "title": "Saturazione",
+                            "label": "La saturazione del sito web viene aumentata o diminuita per garantire una migliore leggibilità."
+                        },
+                        "mouseCursor": {
+                            "title": "Puntatore del mouse",
+                            "label": "Il puntatore del mouse viene ingrandito di un fattore 3 per poterlo mettere meglio a fuoco."
+                        },
+                        "siteStructure": {
+                            "title": "Struttura della pagina",
+                            "label": "Tutti i titoli e i link sono elencati uno sotto l'altro in ordine di importanza, per facilitare la navigazione nella pagina."
+                        },
+                        "tooltips": {
+                            "title": "Suggerimenti",
+                            "label": "Tutti gli elementi che hanno un attributo `title` o `label` visualizzano un tooltip visibile quando ci si passa sopra con il mouse."
+                        },
+                        "readableText": {
+                            "title": "Testo leggibile",
+                            "label": "Viene caricato un nuovo font per facilitare la lettura del testo. È possibile selezionare anche un font particolarmente adatto ai dislessici."
+                        },
+                        "stopAnimation": {
+                            "title": "Interrompere le animazioni",
+                            "label": "Mette in pausa tutti i video e le animazioni dell'intero sito web."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Segnala un errore",
+                        "label": "Segnalare un errore con AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Informazioni su Access-Flow"
+                    }
+                }
+            },
+            "ja": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "AccessFlowアクセシビリティメニューを開き、設定を行います。"
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "クローズビュー"
+                        }
+                    },
+                    "languages": {
+                        "title": "言語 ({{language}})",
+                        "label": "AccessFlowインターフェースの言語をワンクリックで変更できます。",
+                        "input": {
+                            "label": "希望の言語を検索します。"
+                        },
+                        "availableLanguages": {
+                            "label": "インターフェイスを {{language}} 言語に切り替える。"
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "コントラスト",
+                            "label": "異なるコントラストレベルでウェブサイトを表示します。"
+                        },
+                        "links": {
+                            "title": "リンク",
+                            "label": "ウェブサイト上のすべてのリンクをカラーでハイライト。"
+                        },
+                        "biggerText": {
+                            "title": "拡大テキスト",
+                            "label": "現在のフォントサイズに対して相対的にフォントを拡大する。"
+                        },
+                        "textSpacing": {
+                            "title": "テキスト間隔",
+                            "label": "文字と単語の間隔を広げます。"
+                        },
+                        "imagesRemove": {
+                            "title": "画像を削除",
+                            "label": "ウェブサイト上のすべての画像要素が非表示になります。"
+                        },
+                        "lineHeight": {
+                            "title": "行の高さ",
+                            "label": "ウェブサイトのすべてのテキスト要素の行の高さが増加します。"
+                        },
+                        "saturation": {
+                            "title": "彩度",
+                            "label": "ウェブサイトの彩度を増減して、より読みやすくします。"
+                        },
+                        "mouseCursor": {
+                            "title": "マウスカーソル",
+                            "label": "マウスカーソルを3倍に拡大して、より焦点を合わせやすくします。"
+                        },
+                        "siteStructure": {
+                            "title": "サイト構造",
+                            "label": "すべての見出しとリンクが重要度の順に並べられているため、サイト内を簡単に移動できます。"
+                        },
+                        "tooltips": {
+                            "title": "ツールチップ",
+                            "label": "「title」または「label」属性を持つすべての要素には、マウスを重ねると表示されるツールチップが表示されます。"
+                        },
+                        "readableText": {
+                            "title": "読みやすいテキスト",
+                            "label": "テキストを読みやすくするために新しいフォントが読み込まれます。また、特に読字障害者向けのフォントも選択できます。"
+                        },
+                        "stopAnimation": {
+                            "title": "アニメーションを停止",
+                            "label": "サイト全体のすべてのビデオとアニメーションを一時停止します。"
+                        }
+                    },
+                    "reportError": {
+                        "button": "エラーを報告",
+                        "label": "AccessFlowでエラーを報告"
+                    },
+                    "overAccessFlow": {
+                        "label": "Access-Flowについて"
+                    }
+                }
+            },
+            "ko": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "AccessFlow 접근성 메뉴를 열어 설정합니다."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "근접 보기"
+                        }
+                    },
+                    "languages": {
+                        "title": "언어 ({{language}})",
+                        "label": "한 번의 클릭으로 AccessFlow 인터페이스 언어를 변경할 수 있습니다.",
+                        "input": {
+                            "label": "원하는 언어를 검색합니다."
+                        },
+                        "availableLanguages": {
+                            "label": "인터페이스를 {{language}} 언어로 변경합니다."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "대비",
+                            "label": "다양한 대비 수준으로 웹 사이트를 표시합니다."
+                        },
+                        "links": {
+                            "title": "링크",
+                            "label": "웹 사이트의 모든 링크를 색상으로 강조합니다."
+                        },
+                        "biggerText": {
+                            "title": "크게 보기",
+                            "label": "현재 글꼴 크기에 비해 글꼴을 확대합니다."
+                        },
+                        "textSpacing": {
+                            "title": "텍스트 간격",
+                            "label": "문자와 단어 사이의 간격을 넓힙니다."
+                        },
+                        "imagesRemove": {
+                            "title": "이미지 제거",
+                            "label": "웹 사이트의 모든 이미지 요소가 숨겨집니다."
+                        },
+                        "lineHeight": {
+                            "title": "줄 높이",
+                            "label": "웹 사이트의 모든 텍스트 요소에 대해 줄 높이가 증가합니다."
+                        },
+                        "saturation": {
+                            "title": "채도",
+                            "label": "웹 사이트의 채도를 높이거나 낮추어 더 나은 가독성을 보장합니다."
+                        },
+                        "mouseCursor": {
+                            "title": "마우스 커서",
+                            "label": "마우스 커서를 3배로 확대하여 더 잘 초점을 맞출 수 있습니다."
+                        },
+                        "siteStructure": {
+                            "title": "사이트 구조",
+                            "label": "모든 제목과 링크가 중요도 순으로 나열되어 있어 사이트 내에서 쉽게 탐색할 수 있습니다."
+                        },
+                        "tooltips": {
+                            "title": "툴팁",
+                            "label": "`title` 또는 `label` 속성이 있는 모든 요소는 마우스를 올리면 툴팁이 표시됩니다."
+                        },
+                        "readableText": {
+                            "title": "가독성 있는 텍스트",
+                            "label": "텍스트를 더 쉽게 읽을 수 있도록 새로운 글꼴이 로드됩니다. 디스렉시아 환자에게 적합한 글꼴도 선택할 수 있습니다."
+                        },
+                        "stopAnimation": {
+                            "title": "애니메이션 중지",
+                            "label": "사이트 전체의 모든 비디오와 애니메이션을 일시 중지합니다."
+                        }
+                    },
+                    "reportError": {
+                        "button": "오류 신고",
+                        "label": "AccessFlow와 오류 신고"
+                    },
+                    "overAccessFlow": {
+                        "label": "Access-Flow 정보"
+                    }
+                }
+            },
+            "lv": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Atveriet AccessFlow pieejamības izvēlni, lai veiktu iestatījumus."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Tuva skats"
+                        }
+                    },
+                    "languages": {
+                        "title": "Valoda ({{language}})",
+                        "label": "Ļauj vienā klikšķī mainīt AccessFlow saskarnes valodu.",
+                        "input": {
+                            "label": "Meklēt vēlamo valodu."
+                        },
+                        "availableLanguages": {
+                            "label": "Pārslēdziet saskarni uz {{language}} valodu."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrasts",
+                            "label": "Parāda tīmekļa vietni ar dažādiem kontrasta līmeņiem."
+                        },
+                        "links": {
+                            "title": "Saites",
+                            "label": "Izceļ visas tīmekļa vietnes saites ar krāsu."
+                        },
+                        "biggerText": {
+                            "title": "Lielāks teksts",
+                            "label": "Palielina fontu attiecībā pret pašreizējo fonta lielumu."
+                        },
+                        "textSpacing": {
+                            "title": "Teksta atstarpe",
+                            "label": "Palielina atstarpi starp rakstzīmēm un vārdiem."
+                        },
+                        "imagesRemove": {
+                            "title": "Noņemt attēlus",
+                            "label": "Visi tīmekļa vietnes attēli ir paslēpti."
+                        },
+                        "lineHeight": {
+                            "title": "Rindas augstums",
+                            "label": "Rindas augstums tiek palielināts katram tīmekļa vietnes teksta elementam."
+                        },
+                        "saturation": {
+                            "title": "Piesātinājums",
+                            "label": "Tīmekļa vietnes piesātinājums tiek palielināts vai samazināts, lai nodrošinātu labāku lasāmību."
+                        },
+                        "mouseCursor": {
+                            "title": "Peles kursors",
+                            "label": "Peles kursors tiek palielināts 3 reizes, lai to būtu vieglāk izcelt."
+                        },
+                        "siteStructure": {
+                            "title": "Vietnes struktūra",
+                            "label": "Visi virsraksti un saites ir uzskaitīti viens zem otra svarīguma secībā, tādējādi viegli navigējot vietnē."
+                        },
+                        "tooltips": {
+                            "title": "Rīka padomi",
+                            "label": "Visi elementi, kam ir `title` vai `label` atribūts, parāda redzamu rīka padomi, kad virzāties ar peles kursoru uz tiem."
+                        },
+                        "readableText": {
+                            "title": "Lasāms teksts",
+                            "label": "Tiek ielādēts jauns fonts, lai teksts būtu vieglāk lasāms. Izvēlēties var arī fontu, kas īpaši piemērots disleksijas pacientiem."
+                        },
+                        "stopAnimation": {
+                            "title": "Pārtraukt animācijas",
+                            "label": "Pauzē visus video un animācijas visā tīmekļa vietnē."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Ziņot par kļūdu",
+                        "label": "Ziņot par kļūdu ar AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Par Access-Flow"
+                    }
+                }
+            },
+            "lt": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Atidarykite \"AccessFlow\" prieinamumo meniu ir atlikite nustatymus."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Vaizdas iš arti"
+                        }
+                    },
+                    "languages": {
+                        "title": "Kalba ({{language}})",
+                        "label": "Leidžia vienu paspaudimu pakeisti \"AccessFlow\" sąsajos kalbą.",
+                        "input": {
+                            "label": "Ieškokite norimos kalbos."
+                        },
+                        "availableLanguages": {
+                            "label": "Perjunkite sąsają į {{language}} kalbą."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrastas",
+                            "label": "Rodyti svetainę su skirtingais kontrasto lygiais."
+                        },
+                        "links": {
+                            "title": "Nuorodos",
+                            "label": "Paryškinti visus svetainės nuorodas spalva."
+                        },
+                        "biggerText": {
+                            "title": "Didesnis tekstas",
+                            "label": "Padidinti šriftą lyginant su dabartiniu šrifto dydžiu."
+                        },
+                        "textSpacing": {
+                            "title": "Teksto tarpas",
+                            "label": "Padidinti tarpą tarp simbolių ir žodžių."
+                        },
+                        "imagesRemove": {
+                            "title": "Pašalinti vaizdus",
+                            "label": "Visi svetainės vaizdai yra paslėpti."
+                        },
+                        "lineHeight": {
+                            "title": "Eilutės aukštis",
+                            "label": "Kiekvienam teksto elementui svetainėje padidinamas eilutės aukštis."
+                        },
+                        "saturation": {
+                            "title": "Sotis",
+                            "label": "Svetainės sotis padidinama arba sumažinama, kad būtų užtikrintas geresnis skaitymas."
+                        },
+                        "mouseCursor": {
+                            "title": "Pelės rodyklė",
+                            "label": "Pelės rodyklė padidinama 3 kartus, kad būtų geriau pabrėžta."
+                        },
+                        "siteStructure": {
+                            "title": "Svetainės struktūra",
+                            "label": "Visi antraščiai ir nuorodos pateikiami vienas po kito pagal svarbą, palengvinant naršymą svetainėje."
+                        },
+                        "tooltips": {
+                            "title": "Įrankių patarimai",
+                            "label": "Visi elementai, turintys atributą `title` arba `label`, rodo matomą įrankių patarimą, kai pele užvedama ant jų."
+                        },
+                        "readableText": {
+                            "title": "Skaitymas tekstas",
+                            "label": "Naujas šriftas įkeliamas, kad tekstas būtų lengviau skaitomas. Taip pat galima pasirinkti šriftą, specialiai pritaikytą disleksijos pacientams."
+                        },
+                        "stopAnimation": {
+                            "title": "Sustabdyti animacijas",
+                            "label": "Pauzė visiems vaizdo įrašams ir animacijoms visoje svetainėje."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Pranešti apie klaidą",
+                        "label": "Pranešti apie klaidą su AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Apie Access-Flow"
+                    }
+                }
+            },
+            "nl": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Open het AccessFlow-toegankelijkheidsmenu om instellingen te maken."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Close-up weergave"
+                        }
+                    },
+                    "languages": {
+                        "title": "Taal ({{language}})",
+                        "label": "Hiermee kunt u met één klik de taal van de AccessFlow-interface wijzigen.",
+                        "input": {
+                            "label": "Zoek de gewenste taal."
+                        },
+                        "availableLanguages": {
+                            "label": "Schakel de interface over naar de taal {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contrast",
+                            "label": "Toont de website in verschillende contrastniveaus."
+                        },
+                        "links": {
+                            "title": "Links",
+                            "label": "Markeert alle links op de website met kleur."
+                        },
+                        "biggerText": {
+                            "title": "Grotere tekst",
+                            "label": "Vergroot het lettertype ten opzichte van de huidige lettergrootte."
+                        },
+                        "textSpacing": {
+                            "title": "Tekstafstand",
+                            "label": "Vergroot de afstand tussen tekens en woorden."
+                        },
+                        "imagesRemove": {
+                            "title": "Afbeeldingen verwijderen",
+                            "label": "Alle afbeeldingselementen op de website zijn verborgen."
+                        },
+                        "lineHeight": {
+                            "title": "Regelhoogte",
+                            "label": "De regelhoogte wordt verhoogd voor elk tekstelement op de webpagina."
+                        },
+                        "saturation": {
+                            "title": "Verzadiging",
+                            "label": "De verzadiging van de website wordt verhoogd of verlaagd om een betere leesbaarheid te garanderen."
+                        },
+                        "mouseCursor": {
+                            "title": "Muisaanwijzer",
+                            "label": "De muisaanwijzer wordt 3 keer vergroot om beter te kunnen focussen."
+                        },
+                        "siteStructure": {
+                            "title": "Sitestructuur",
+                            "label": "Alle koppen en links worden onder elkaar vermeld op basis van hun belangrijkheid, waardoor het gemakkelijker wordt om door de pagina te navigeren."
+                        },
+                        "tooltips": {
+                            "title": "Tooltips",
+                            "label": "Alle elementen die een `title` of `label` attribuut hebben, tonen een zichtbare tooltip wanneer u er met de muis overheen gaat."
+                        },
+                        "readableText": {
+                            "title": "Leesbare tekst",
+                            "label": "Er wordt een nieuw lettertype geladen om de tekst leesbaarder te maken. Er is ook een lettertype beschikbaar dat speciaal geschikt is voor dyslectici."
+                        },
+                        "stopAnimation": {
+                            "title": "Animatie stoppen",
+                            "label": "Pauzeert alle video's en animaties op de hele website."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Fout melden",
+                        "label": "Meld een fout met AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Over Access-Flow"
+                    }
+                }
+            },
+            "no": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Åpne AccessFlow-tilgjengelighetsmenyen for å gjøre innstillinger."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Nærvisning"
+                        }
+                    },
+                    "languages": {
+                        "title": "Språk ({{language}})",
+                        "label": "Lar deg endre AccessFlow-grensesnittets språk med ett klikk.",
+                        "input": {
+                            "label": "Søk etter ønsket språk."
+                        },
+                        "availableLanguages": {
+                            "label": "Bytt grensesnitt til {{language}} språk."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Viser nettsiden i forskjellige kontrastnivåer."
+                        },
+                        "links": {
+                            "title": "Lenker",
+                            "label": "Markerer alle lenker på nettsiden med farge."
+                        },
+                        "biggerText": {
+                            "title": "Større tekst",
+                            "label": "Forstørrer skrifttypen i forhold til gjeldende skriftstørrelse."
+                        },
+                        "textSpacing": {
+                            "title": "Tekstavstand",
+                            "label": "Øker avstanden mellom tegn og ord."
+                        },
+                        "imagesRemove": {
+                            "title": "Fjern bilder",
+                            "label": "Alle bildelementer på nettsiden er skjult."
+                        },
+                        "lineHeight": {
+                            "title": "Linjehøyde",
+                            "label": "Linjehøyden økes for hvert tekstelement på nettsiden."
+                        },
+                        "saturation": {
+                            "title": "Metning",
+                            "label": "Nettstedets metning økes eller reduseres for å sikre bedre lesbarhet."
+                        },
+                        "mouseCursor": {
+                            "title": "Musepeker",
+                            "label": "Musepekeren forstørres 3 ganger for bedre fokus."
+                        },
+                        "siteStructure": {
+                            "title": "Nettstedsstruktur",
+                            "label": "Alle overskrifter og lenker er oppført under hverandre i rekkefølge av viktighet, noe som gjør det enklere å navigere på siden."
+                        },
+                        "tooltips": {
+                            "title": "Verktøytips",
+                            "label": "Alle elementer som har en `title` eller `label` attributt, viser et synlig verktøytips når du svever over dem med musen."
+                        },
+                        "readableText": {
+                            "title": "Lesbar tekst",
+                            "label": "Et nytt skrifttype lastes inn for å gjøre teksten mer lesbar. Det er også tilgjengelig en skrifttype spesielt egnet for dyslektikere."
+                        },
+                        "stopAnimation": {
+                            "title": "Stopp animasjon",
+                            "label": "Setter alle videoer og animasjoner på hele nettstedet på pause."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Rapporter feil",
+                        "label": "Rapporter en feil med AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Om Access-Flow"
+                    }
+                }
+            },
+            "pl": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Otwórz menu dostępności AccessFlow, aby dokonać ustawień."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Powiększony widok"
+                        }
+                    },
+                    "languages": {
+                        "title": "Język ({{language}})",
+                        "label": "Pozwala zmienić język interfejsu AccessFlow jednym kliknięciem.",
+                        "input": {
+                            "label": "Wyszukaj pożądany język."
+                        },
+                        "availableLanguages": {
+                            "label": "Przełącz interfejs na język {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Wyświetla stronę internetową w różnych poziomach kontrastu."
+                        },
+                        "links": {
+                            "title": "Linki",
+                            "label": "Podkreśla wszystkie linki na stronie internetowej kolorem."
+                        },
+                        "biggerText": {
+                            "title": "Większy tekst",
+                            "label": "Powiększa czcionkę w stosunku do bieżącego rozmiaru czcionki."
+                        },
+                        "textSpacing": {
+                            "title": "Odstępy między tekstem",
+                            "label": "Zwiększa odstępy między znakami i słowami."
+                        },
+                        "imagesRemove": {
+                            "title": "Usuń obrazy",
+                            "label": "Wszystkie elementy obrazu na stronie internetowej są ukryte."
+                        },
+                        "lineHeight": {
+                            "title": "Wysokość linii",
+                            "label": "Wysokość linii jest zwiększana dla każdego elementu tekstu na stronie internetowej."
+                        },
+                        "saturation": {
+                            "title": "Nasycenie",
+                            "label": "Nasycenie strony internetowej jest zwiększane lub zmniejszane, aby zapewnić lepszą czytelność."
+                        },
+                        "mouseCursor": {
+                            "title": "Kursor myszy",
+                            "label": "Kursor myszy jest powiększany trzykrotnie, aby lepiej się skupić."
+                        },
+                        "siteStructure": {
+                            "title": "Struktura strony",
+                            "label": "Wszystkie nagłówki i linki są wymienione jeden pod drugim według ich ważności, ułatwiając nawigację na stronie."
+                        },
+                        "tooltips": {
+                            "title": "Wskazówki",
+                            "label": "Wszystkie elementy, które mają atrybut `title` lub `label`, wyświetlają widoczną wskazówkę, gdy najedziesz na nie myszą."
+                        },
+                        "readableText": {
+                            "title": "Czytelny tekst",
+                            "label": "Nowa czcionka jest ładowana, aby ułatwić czytanie tekstu. Można również wybrać czcionkę specjalnie dostosowaną dla osób z dysleksją."
+                        },
+                        "stopAnimation": {
+                            "title": "Zatrzymaj animację",
+                            "label": "Wstrzymuje wszystkie filmy i animacje na całej stronie internetowej."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Zgłoś błąd",
+                        "label": "Zgłoś błąd z AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "O Access-Flow"
+                    }
+                }
+            },
+            "pt": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Abra o menu de acessibilidade AccessFlow para fazer configurações."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Visualização ampliada"
+                        }
+                    },
+                    "languages": {
+                        "title": "Idioma ({{language}})",
+                        "label": "Permite alterar o idioma da interface do AccessFlow com um único clique.",
+                        "input": {
+                            "label": "Pesquise o idioma desejado."
+                        },
+                        "availableLanguages": {
+                            "label": "Mude a interface para o idioma {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contraste",
+                            "label": "Exibe o site em diferentes níveis de contraste."
+                        },
+                        "links": {
+                            "title": "Links",
+                            "label": "Destaca todos os links do site com cor."
+                        },
+                        "biggerText": {
+                            "title": "Texto maior",
+                            "label": "Aumenta a fonte em relação ao tamanho atual da fonte."
+                        },
+                        "textSpacing": {
+                            "title": "Espaçamento de texto",
+                            "label": "Aumenta o espaço entre caracteres e palavras."
+                        },
+                        "imagesRemove": {
+                            "title": "Remover imagens",
+                            "label": "Todos os elementos de imagem do site estão ocultos."
+                        },
+                        "lineHeight": {
+                            "title": "Altura da linha",
+                            "label": "A altura da linha é aumentada para cada elemento de texto na página da web."
+                        },
+                        "saturation": {
+                            "title": "Saturação",
+                            "label": "A saturação do site é aumentada ou diminuída para garantir uma melhor legibilidade."
+                        },
+                        "mouseCursor": {
+                            "title": "Cursor do mouse",
+                            "label": "O cursor do mouse é ampliado 3 vezes para melhor foco."
+                        },
+                        "siteStructure": {
+                            "title": "Estrutura do site",
+                            "label": "Todos os títulos e links são listados um abaixo do outro em ordem de importância, facilitando a navegação na página."
+                        },
+                        "tooltips": {
+                            "title": "Dicas de ferramentas",
+                            "label": "Todos os elementos que têm um atributo `title` ou `label` exibem uma dica de ferramenta visível quando você passa o mouse sobre eles."
+                        },
+                        "readableText": {
+                            "title": "Texto legível",
+                            "label": "Uma nova fonte é carregada para facilitar a leitura do texto. Também é possível selecionar uma fonte especialmente adequada para disléxicos."
+                        },
+                        "stopAnimation": {
+                            "title": "Parar animações",
+                            "label": "Pausa todos os vídeos e animações em todo o site."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Reportar erro",
+                        "label": "Reportar um erro com AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Sobre Access-Flow"
+                    }
+                }
+            },
+            "ro": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Deschideți meniul de accesibilitate AccessFlow pentru a face setări."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Vizualizare apropiată"
+                        }
+                    },
+                    "languages": {
+                        "title": "Limbă ({{language}})",
+                        "label": "Permite schimbarea limbii interfeței AccessFlow printr-un singur clic.",
+                        "input": {
+                            "label": "Căutați limba dorită."
+                        },
+                        "availableLanguages": {
+                            "label": "Comutați interfața la limba {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contrast",
+                            "label": "Afișează site-ul în diferite niveluri de contrast."
+                        },
+                        "links": {
+                            "title": "Linkuri",
+                            "label": "Evidențiază toate linkurile de pe site cu culoare."
+                        },
+                        "biggerText": {
+                            "title": "Text mai mare",
+                            "label": "Mărește fontul în raport cu dimensiunea actuală a fontului."
+                        },
+                        "textSpacing": {
+                            "title": "Spațierea textului",
+                            "label": "Mărește spațiul dintre caractere și cuvinte."
+                        },
+                        "imagesRemove": {
+                            "title": "Elimină imaginile",
+                            "label": "Toate elementele de imagine de pe site sunt ascunse."
+                        },
+                        "lineHeight": {
+                            "title": "Înălțimea liniei",
+                            "label": "Înălțimea liniei este mărită pentru fiecare element de text de pe pagină."
+                        },
+                        "saturation": {
+                            "title": "Saturație",
+                            "label": "Saturația site-ului este mărită sau micșorată pentru a asigura o mai bună lizibilitate."
+                        },
+                        "mouseCursor": {
+                            "title": "Cursorul mouse-ului",
+                            "label": "Cursorul mouse-ului este mărit de 3 ori pentru un mai bun focus."
+                        },
+                        "siteStructure": {
+                            "title": "Structura site-ului",
+                            "label": "Toate titlurile și linkurile sunt listate unul sub altul în ordinea importanței, facilitând navigarea pe pagină."
+                        },
+                        "tooltips": {
+                            "title": "Sugestii pentru instrumente",
+                            "label": "Toate elementele care au un atribut `title` sau `label` afișează o sugestie pentru instrumente vizibilă atunci când plasați cursorul mouse-ului pe ele."
+                        },
+                        "readableText": {
+                            "title": "Text lizibil",
+                            "label": "Se încarcă un nou font pentru a face textul mai ușor de citit. De asemenea, este disponibil un font special potrivit pentru persoanele cu dislexie."
+                        },
+                        "stopAnimation": {
+                            "title": "Oprește animațiile",
+                            "label": "Pune pe pauză toate videoclipurile și animațiile de pe întregul site."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Raportați o eroare",
+                        "label": "Raportați o eroare cu AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Despre Access-Flow"
+                    }
+                }
+            },
+            "ru": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Откройте меню доступности AccessFlow, чтобы внести настройки."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Увеличенный вид"
+                        }
+                    },
+                    "languages": {
+                        "title": "Язык ({{language}})",
+                        "label": "Позволяет изменить язык интерфейса AccessFlow одним щелчком.",
+                        "input": {
+                            "label": "Поиск желаемого языка."
+                        },
+                        "availableLanguages": {
+                            "label": "Переключите интерфейс на язык {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Контраст",
+                            "label": "Отображает веб-сайт в различных уровнях контрастности."
+                        },
+                        "links": {
+                            "title": "Ссылки",
+                            "label": "Выделяет все ссылки на веб-сайте цветом."
+                        },
+                        "biggerText": {
+                            "title": "Увеличенный текст",
+                            "label": "Увеличивает шрифт по сравнению с текущим размером шрифта."
+                        },
+                        "textSpacing": {
+                            "title": "Междустрочный интервал",
+                            "label": "Увеличивает расстояние между символами и словами."
+                        },
+                        "imagesRemove": {
+                            "title": "Удалить изображения",
+                            "label": "Все элементы изображения на веб-сайте скрыты."
+                        },
+                        "lineHeight": {
+                            "title": "Высота строки",
+                            "label": "Высота строки увеличивается для каждого текстового элемента на веб-странице."
+                        },
+                        "saturation": {
+                            "title": "Насыщенность",
+                            "label": "Насыщенность веб-сайта увеличивается или уменьшается для обеспечения лучшей читаемости."
+                        },
+                        "mouseCursor": {
+                            "title": "Курсор мыши",
+                            "label": "Курсор мыши увеличивается в 3 раза для лучшего фокусирования."
+                        },
+                        "siteStructure": {
+                            "title": "Структура сайта",
+                            "label": "Все заголовки и ссылки перечислены один под другим в порядке важности, что облегчает навигацию по странице."
+                        },
+                        "tooltips": {
+                            "title": "Подсказки",
+                            "label": "Все элементы, у которых есть атрибут `title` или `label`, отображают видимую подсказку при наведении на них курсора мыши."
+                        },
+                        "readableText": {
+                            "title": "Читаемый текст",
+                            "label": "Загружается новый шрифт для улучшения читаемости текста. Также доступен шрифт, специально предназначенный для дислексиков."
+                        },
+                        "stopAnimation": {
+                            "title": "Остановить анимацию",
+                            "label": "Приостанавливает все видео и анимации на всем веб-сайте."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Сообщить об ошибке",
+                        "label": "Сообщить об ошибке с AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "О Access-Flow"
+                    }
+                }
+            },
+            "sv": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Öppna tillgänglighetsmenyn AccessFlow för att göra inställningar."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Närbild"
+                        }
+                    },
+                    "languages": {
+                        "title": "Språk ({{language}})",
+                        "label": "Låter dig ändra AccessFlow-gränssnittets språk med en enda klickning.",
+                        "input": {
+                            "label": "Sök efter önskat språk."
+                        },
+                        "availableLanguages": {
+                            "label": "Växla gränssnittet till {{language}} språk."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Visar webbplatsen i olika kontrastnivåer."
+                        },
+                        "links": {
+                            "title": "Länkar",
+                            "label": "Markerar alla länkar på webbplatsen med färg."
+                        },
+                        "biggerText": {
+                            "title": "Större text",
+                            "label": "Förstorar teckensnittet jämfört med den aktuella teckenstorleken."
+                        },
+                        "textSpacing": {
+                            "title": "Textavstånd",
+                            "label": "Ökar avståndet mellan tecken och ord."
+                        },
+                        "imagesRemove": {
+                            "title": "Ta bort bilder",
+                            "label": "Alla bildkomponenter på webbplatsen är dolda."
+                        },
+                        "lineHeight": {
+                            "title": "Radhöjd",
+                            "label": "Radhöjden ökas för varje textelement på webbsidan."
+                        },
+                        "saturation": {
+                            "title": "Mättnad",
+                            "label": "Webbplatsens mättnad ökas eller minskas för att säkerställa bättre läsbarhet."
+                        },
+                        "mouseCursor": {
+                            "title": "Muskursor",
+                            "label": "Muskursorn förstoras 3 gånger för bättre fokus."
+                        },
+                        "siteStructure": {
+                            "title": "Webbplatsstruktur",
+                            "label": "Alla rubriker och länkar listas under varandra i ordning av viktighet, vilket gör det enklare att navigera på sidan."
+                        },
+                        "tooltips": {
+                            "title": "Verktygstips",
+                            "label": "Alla element som har en `title` eller `label`-attribut visar ett synligt verktygstips när du sveper över dem med musen."
+                        },
+                        "readableText": {
+                            "title": "Läsbar text",
+                            "label": "En ny typsnitt laddas för att göra texten lättare att läsa. Det finns också en typsnitt som är speciellt anpassad för dyslektiker."
+                        },
+                        "stopAnimation": {
+                            "title": "Stoppa animationer",
+                            "label": "Pausar alla videor och animationer på hela webbplatsen."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Rapportera fel",
+                        "label": "Rapportera ett fel med AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Om Access-Flow"
+                    }
+                }
+            },
+            "sk": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Otvorte menu dostupnosti AccessFlow a vykonajte nastavenia."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Zväčšený zobrazenie"
+                        }
+                    },
+                    "languages": {
+                        "title": "Jazyk ({{language}})",
+                        "label": "Umožňuje zmeniť jazyk rozhrania AccessFlow jedným kliknutím.",
+                        "input": {
+                            "label": "Vyhľadajte požadovaný jazyk."
+                        },
+                        "availableLanguages": {
+                            "label": "Prepni rozhranie na jazyk {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Zobrazuje webovú stránku v rôznych úrovniach kontrastu."
+                        },
+                        "links": {
+                            "title": "Odkazy",
+                            "label": "Zvýrazňuje všetky odkazy na webovej stránke farbou."
+                        },
+                        "biggerText": {
+                            "title": "Väčší text",
+                            "label": "Zväčšuje písmo v porovnaní s aktuálnou veľkosťou písma."
+                        },
+                        "textSpacing": {
+                            "title": "Rozostup textu",
+                            "label": "Zväčšuje rozostup medzi znakmi a slovami."
+                        },
+                        "imagesRemove": {
+                            "title": "Odstrániť obrázky",
+                            "label": "Všetky obrázkové prvky na webovej stránke sú skryté."
+                        },
+                        "lineHeight": {
+                            "title": "Výška riadku",
+                            "label": "Výška riadku sa zvyšuje pre každý textový element na webovej stránke."
+                        },
+                        "saturation": {
+                            "title": "Sýtosť",
+                            "label": "Sýtosť webovej stránky sa zvyšuje alebo znižuje, aby sa zabezpečila lepšia čitateľnosť."
+                        },
+                        "mouseCursor": {
+                            "title": "Kurzor myši",
+                            "label": "Kurzor myši sa zväčšuje 3-krát pre lepšie zaostrenie."
+                        },
+                        "siteStructure": {
+                            "title": "Štruktúra stránky",
+                            "label": "Všetky nadpisy a odkazy sú uvedené pod sebou podľa dôležitosti, čo uľahčuje navigáciu na stránke."
+                        },
+                        "tooltips": {
+                            "title": "Tipy na nástroje",
+                            "label": "Všetky prvky, ktoré majú atribút `title` alebo `label`, zobrazujú viditeľný tip na nástroje, keď na ne prejdete myšou."
+                        },
+                        "readableText": {
+                            "title": "Čitateľný text",
+                            "label": "Načíta sa nový písmo, aby sa text stal ľahšie čitateľným. K dispozícii je tiež písmo špeciálne určené pre dyslektikov."
+                        },
+                        "stopAnimation": {
+                            "title": "Zastaviť animácie",
+                            "label": "Pozastaví všetky videá a animácie na celej webovej stránke."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Nahlásiť chybu",
+                        "label": "Nahláste chybu s AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "O Access-Flow"
+                    }
+                }
+            },
+            "sl": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Odpri meni dostopnosti AccessFlow za nastavitve."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Povečan pogled"
+                        }
+                    },
+                    "languages": {
+                        "title": "Jezik ({{language}})",
+                        "label": "Omogoča spremembo jezika vmesnika AccessFlow z enim klikom.",
+                        "input": {
+                            "label": "Poiščite želeni jezik."
+                        },
+                        "availableLanguages": {
+                            "label": "Preklopi vmesnik na jezik {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Prikaže spletno mesto v različnih kontrastnih ravneh."
+                        },
+                        "links": {
+                            "title": "Povezave",
+                            "label": "Poudari vse povezave na spletnem mestu z barvo."
+                        },
+                        "biggerText": {
+                            "title": "Večje besedilo",
+                            "label": "Poveča pisavo glede na trenutno velikost pisave."
+                        },
+                        "textSpacing": {
+                            "title": "Razmik besedila",
+                            "label": "Poveča razdaljo med znaki in besedami."
+                        },
+                        "imagesRemove": {
+                            "title": "Odstrani slike",
+                            "label": "Vse slikovne elemente na spletnem mestu so skriti."
+                        },
+                        "lineHeight": {
+                            "title": "Višina vrstice",
+                            "label": "Višina vrstice se poveča za vsak element besedila na spletni strani."
+                        },
+                        "saturation": {
+                            "title": "Nasičenost",
+                            "label": "Nasičenost spletnega mesta se poveča ali zmanjša za boljšo berljivost."
+                        },
+                        "mouseCursor": {
+                            "title": "Miškin kazalec",
+                            "label": "Miškin kazalec se poveča 3-krat za boljši fokus."
+                        },
+                        "siteStructure": {
+                            "title": "Struktura spletnega mesta",
+                            "label": "Vsi naslovi in povezave so navedeni en pod drugim glede na njihovo pomembnost, kar olajša navigacijo po strani."
+                        },
+                        "tooltips": {
+                            "title": "Namigi",
+                            "label": "Vsi elementi, ki imajo atribut `title` ali `label`, prikažejo vidni namig, ko se z miško premaknete nad njih."
+                        },
+                        "readableText": {
+                            "title": "Berljivo besedilo",
+                            "label": "Naloži se nova pisava, da bo besedilo bolj berljivo. Na voljo je tudi pisava, ki je posebej primerna za dislektike."
+                        },
+                        "stopAnimation": {
+                            "title": "Ustavi animacije",
+                            "label": "Zaustavi vse videoposnetke in animacije na celotnem spletnem mestu."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Prijavi napako",
+                        "label": "Prijavite napako z AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "O Access-Flow"
+                    }
+                }
+            },
+            "es": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Abra el menú de accesibilidad de AccessFlow para realizar los ajustes."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Vista ampliada"
+                        }
+                    },
+                    "languages": {
+                        "title": "Idioma ({{language}})",
+                        "label": "Permite cambiar el idioma de la interfaz de AccessFlow con un solo clic.",
+                        "input": {
+                            "label": "Busca el idioma deseado."
+                        },
+                        "availableLanguages": {
+                            "label": "Cambiar la interfaz al idioma {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Contraste",
+                            "label": "Muestra el sitio web en diferentes niveles de contraste."
+                        },
+                        "links": {
+                            "title": "Enlaces",
+                            "label": "Resalta todos los enlaces del sitio web con color."
+                        },
+                        "biggerText": {
+                            "title": "Texto más grande",
+                            "label": "Aumenta el tamaño de la fuente en relación con el tamaño de fuente actual."
+                        },
+                        "textSpacing": {
+                            "title": "Espaciado de texto",
+                            "label": "Aumenta el espacio entre caracteres y palabras."
+                        },
+                        "imagesRemove": {
+                            "title": "Eliminar imágenes",
+                            "label": "Todos los elementos de imagen en el sitio web están ocultos."
+                        },
+                        "lineHeight": {
+                            "title": "Altura de línea",
+                            "label": "La altura de línea se incrementa para cada elemento de texto en la página web."
+                        },
+                        "saturation": {
+                            "title": "Saturación",
+                            "label": "La saturación del sitio web se incrementa o disminuye para garantizar una mejor legibilidad."
+                        },
+                        "mouseCursor": {
+                            "title": "Cursor del ratón",
+                            "label": "El cursor del ratón se amplía 3 veces para un mejor enfoque."
+                        },
+                        "siteStructure": {
+                            "title": "Estructura del sitio",
+                            "label": "Todos los títulos y enlaces se enumeran uno debajo del otro en orden de importancia, lo que facilita la navegación en la página."
+                        },
+                        "tooltips": {
+                            "title": "Sugerencias",
+                            "label": "Todos los elementos que tienen un atributo `title` o `label` muestran una sugerencia visible cuando se pasa el ratón sobre ellos."
+                        },
+                        "readableText": {
+                            "title": "Texto legible",
+                            "label": "Se carga una nueva fuente para hacer el texto más legible. También está disponible una fuente especialmente adecuada para disléxicos."
+                        },
+                        "stopAnimation": {
+                            "title": "Detener animaciones",
+                            "label": "Pausa todos los videos y animaciones en todo el sitio web."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Informar de un error",
+                        "label": "Informar de un error con AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Sobre Access-Flow"
+                    }
+                }
+            },
+            "cs": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Otevřete nabídku přístupnosti AccessFlow pro provedení nastavení."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Zvětšený pohled"
+                        }
+                    },
+                    "languages": {
+                        "title": "Jazyk ({{language}})",
+                        "label": "Umožňuje změnit jazyk rozhraní AccessFlow jedním kliknutím.",
+                        "input": {
+                            "label": "Vyhledejte požadovaný jazyk."
+                        },
+                        "availableLanguages": {
+                            "label": "Přepněte rozhraní na jazyk {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Zobrazuje webovou stránku v různých úrovních kontrastu."
+                        },
+                        "links": {
+                            "title": "Odkazy",
+                            "label": "Zvýrazňuje všechny odkazy na webové stránce barvou."
+                        },
+                        "biggerText": {
+                            "title": "Větší text",
+                            "label": "Zvětšuje písmo ve srovnání s aktuální velikostí písma."
+                        },
+                        "textSpacing": {
+                            "title": "Odstup textu",
+                            "label": "Zvětšuje odstup mezi znaky a slovy."
+                        },
+                        "imagesRemove": {
+                            "title": "Odstranit obrázky",
+                            "label": "Všechny obrázkové prvky na webové stránce jsou skryty."
+                        },
+                        "lineHeight": {
+                            "title": "Výška řádku",
+                            "label": "Výška řádku je zvýšena pro každý textový prvek na webové stránce."
+                        },
+                        "saturation": {
+                            "title": "Sytost",
+                            "label": "Sytost webové stránky je zvýšena nebo snížena pro zajištění lepší čitelnosti."
+                        },
+                        "mouseCursor": {
+                            "title": "Kurzor myši",
+                            "label": "Kurzor myši je zvětšen 3krát pro lepší zaostření."
+                        },
+                        "siteStructure": {
+                            "title": "Struktura stránky",
+                            "label": "Všechny nadpisy a odkazy jsou uvedeny pod sebou podle důležitosti, což usnadňuje navigaci na stránce."
+                        },
+                        "tooltips": {
+                            "title": "Tipy",
+                            "label": "Všechny prvky, které mají atribut `title` nebo `label`, zobrazují viditelný tip, když na ně najedete myší."
+                        },
+                        "readableText": {
+                            "title": "Čitelný text",
+                            "label": "Načte se nový font pro zlepšení čitelnosti textu. K dispozici je také font speciálně navržený pro dyslektiky."
+                        },
+                        "stopAnimation": {
+                            "title": "Zastavit animace",
+                            "label": "Pozastaví všechny videa a animace na celém webu."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Nahlásit chybu",
+                        "label": "Nahlásit chybu s AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "O Access-Flow"
+                    }
+                }
+            },
+            "tr": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Ayarlar yapmak için erişilebilirlik menüsü AccessFlow'u açın."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Büyütülmüş görünüm"
+                        }
+                    },
+                    "languages": {
+                        "title": "Dil ({{language}})",
+                        "label": "AccessFlow arayüz dilini tek tıklamayla değiştirmenizi sağlar.",
+                        "input": {
+                            "label": "Aranan dili arayın."
+                        },
+                        "availableLanguages": {
+                            "label": "Arayüzü {{language}} diline değiştirin."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontrast",
+                            "label": "Web sitesini farklı kontrast seviyelerinde gösterir."
+                        },
+                        "links": {
+                            "title": "Bağlantılar",
+                            "label": "Web sitesindeki tüm bağlantıları renk ile vurgular."
+                        },
+                        "biggerText": {
+                            "title": "Daha büyük metin",
+                            "label": "Mevcut metin boyutuna göre yazı tipini büyütür."
+                        },
+                        "textSpacing": {
+                            "title": "Metin aralığı",
+                            "label": "Karakterler ve kelimeler arasındaki boşluğu artırır."
+                        },
+                        "imagesRemove": {
+                            "title": "Resimleri kaldır",
+                            "label": "Web sitesindeki tüm resim öğeleri gizlidir."
+                        },
+                        "lineHeight": {
+                            "title": "Satır yüksekliği",
+                            "label": "Web sayfasındaki her metin öğesi için satır yüksekliği artırılır."
+                        },
+                        "saturation": {
+                            "title": "Doyma",
+                            "label": "Web sitesinin doygunluğu artırılır veya azaltılır, daha iyi okunabilirlik sağlamak için."
+                        },
+                        "mouseCursor": {
+                            "title": "Fare imleci",
+                            "label": "Fare imleci odaklanmayı artırmak için 3 kat büyütülür."
+                        },
+                        "siteStructure": {
+                            "title": "Site yapısı",
+                            "label": "Tüm başlıklar ve bağlantılar önem sırasına göre alt alta listelenir, sayfada gezinmeyi kolaylaştırır."
+                        },
+                        "tooltips": {
+                            "title": "İpuçları",
+                            "label": "Bir `title` veya `label` niteliğine sahip tüm öğeler, fare ile üzerlerine gelindiğinde görünür bir araç ipucu görüntüler."
+                        },
+                        "readableText": {
+                            "title": "Okunabilir metin",
+                            "label": "Metni daha okunabilir hale getirmek için yeni bir yazı tipi yüklenir. Disleksi hastaları için özel olarak tasarlanmış bir yazı tipi de mevcuttur."
+                        },
+                        "stopAnimation": {
+                            "title": "Animasyonları durdur",
+                            "label": ""
+                        }
+                    },
+                    "reportError": {
+                        "button": "Hata bildir",
+                        "label": "AccessFlow ile ilgili bir hatayı bildirin."
+                    },
+                    "overAccessFlow": {
+                        "label": "Access-Flow Hakkında"
+                    }
+                }
+            },
+            "uk": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Відкрийте меню доступності AccessFlow, щоб внести налаштування."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Збільшений вигляд"
+                        }
+                    },
+                    "languages": {
+                        "title": "Мова ({{language}})",
+                        "label": "Дозволяє змінити мову інтерфейсу AccessFlow одним кліком.",
+                        "input": {
+                            "label": "Шукайте потрібну мову."
+                        },
+                        "availableLanguages": {
+                            "label": "Перемкніть інтерфейс на мову {{language}}."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Контраст",
+                            "label": "Показує веб-сайт на різних рівнях контрастності."
+                        },
+                        "links": {
+                            "title": "Посилання",
+                            "label": "Виділяє всі посилання на веб-сайті кольором."
+                        },
+                        "biggerText": {
+                            "title": "Збільшений текст",
+                            "label": "Збільшує шрифт порівняно з поточним розміром шрифту."
+                        },
+                        "textSpacing": {
+                            "title": "Міжрядковий інтервал",
+                            "label": "Збільшує відстань між символами та словами."
+                        },
+                        "imagesRemove": {
+                            "title": "Видалити зображення",
+                            "label": "Усі елементи зображення на веб-сайті приховані."
+                        },
+                        "lineHeight": {
+                            "title": "Висота рядка",
+                            "label": "Висота рядка збільшується для кожного текстового елемента на веб-сторінці."
+                        },
+                        "saturation": {
+                            "title": "Насиченість",
+                            "label": "Насиченість веб-сайту збільшується або зменшується для забезпечення кращої читабельності."
+                        },
+                        "mouseCursor": {
+                            "title": "Курсор миші",
+                            "label": "Курсор миші збільшується в 3 рази для кращого фокусування."
+                        },
+                        "siteStructure": {
+                            "title": "Структура сайту",
+                            "label": "Усі заголовки та посилання перераховані один під одним в порядку важливості, що полегшує навігацію на сторінці."
+                        },
+                        "tooltips": {
+                            "title": "Підказки",
+                            "label": "Усі елементи, які мають атрибут `title` або `label`, показують видиму підказку для інструментів при наведенні на них курсора миші."
+                        },
+                        "readableText": {
+                            "title": "Читабельний текст",
+                            "label": "Завантажується новий шрифт для поліпшення читабельності тексту. Також доступний шрифт, спеціально призначений для дислексіків."
+                        },
+                        "stopAnimation": {
+                            "title": "Зупинити анімацію",
+                            "label": "Призупиняє всі відео та анімації на всьому веб-сайті."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Повідомити про помилку",
+                        "label": "Повідомити про помилку з AccessFlow"
+                    },
+                    "overAccessFlow": {
+                        "label": "Про Access-Flow"
+                    }
+                }
+            },
+            "hu": {
+                "accessFlow": {
+                    "openSymbol": {
+                        "label": "Nyissa meg az AccessFlow hozzáférhetőségi menüt a beállítások elvégzéséhez."
+                    },
+                    "header": {
+                        "closeIcon": {
+                            "label": "Nagyított nézet"
+                        }
+                    },
+                    "languages": {
+                        "title": "Nyelv ({{language}})",
+                        "label": "Lehetővé teszi az AccessFlow felület nyelvének egyetlen kattintással történő megváltoztatását.",
+                        "input": {
+                            "label": "Keresse meg a kívánt nyelvet."
+                        },
+                        "availableLanguages": {
+                            "label": "Váltson az {{language}} nyelvű felületre."
+                        }
+                    },
+                    "tools": {
+                        "contrast": {
+                            "title": "Kontraszt",
+                            "label": "A webhelyet különböző kontraszt szinteken jeleníti meg."
+                        },
+                        "links": {
+                            "title": "Hivatkozások",
+                            "label": "Az összes hivatkozást a webhelyen színnel kiemeli."
+                        },
+                        "biggerText": {
+                            "title": "Nagyobb szöveg",
+                            "label": "A betűméretet az aktuális betűmérethez képest nagyítja."
+                        },
+                        "textSpacing": {
+                            "title": "Szövegtávolság",
+                            "label": "Növeli a karakterek és szavak közötti távolságot."
+                        },
+                        "imagesRemove": {
+                            "title": "Képek eltávolítása",
+                            "label": "Az összes képelem a webhelyen el van rejtve."
+                        },
+                        "lineHeight": {
+                            "title": "Sor magassága",
+                            "label": "A sor magassága minden szövegelem esetében növekszik a webhelyen."
+                        },
+                        "saturation": {
+                            "title": "Telítettség",
+                            "label": "A webhely telítettsége növekszik vagy csökken a jobb olvashatóság érdekében."
+                        },
+                        "mouseCursor": {
+                            "title": "Egérkurzor",
+                            "label": "Az egérkurzor 3-szorosára nagyítva jobb fókuszálást biztosít."
+                        },
+                        "siteStructure": {
+                            "title": "Webhely szerkezete",
+                            "label": "Az összes cím és hivatkozás fontosságuk sorrendjében egymás alatt vannak felsorolva, ami megkönnyíti az oldalon való navigációt."
+                        },
+                        "tooltips": {
+                            "title": "Eszközleírások",
+                            "label": "Az összes elem, amelynek `title` vagy `label` attribútuma van, látható eszközleírást jelenít meg, amikor az egérrel rájuk mutat."
+                        },
+                        "readableText": {
+                            "title": "Olvasható szöveg",
+                            "label": "Egy új betűtípus betöltése a szöveg olvashatóságának javítása érdekében. Ezenkívül elérhető egy betűtípus, amely kifejezetten diszlexiások számára készült."
+                        },
+                        "stopAnimation": {
+                            "title": "Animációk leállítása",
+                            "label": "Az összes videót és animációt a webhelyen leállítja."
+                        }
+                    },
+                    "reportError": {
+                        "button": "Hiba bejelentése",
+                        "label": "Hiba bejelentése az AccessFlow használatával"
+                    },
+                    "overAccessFlow": {
+                        "label": "Az Access-Flow-ról"
                     }
                 }
             }
